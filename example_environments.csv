@@ -1,0 +1,8 @@
+environment_id,temporal_depth,partial_observability,feedback,contradiction,distributed_state,noise
+DEV-A,0.35,0.25,0.3,0.25,0.3,0.18
+DEV-B,0.55,0.45,0.5,0.45,0.5,0.22
+DEV-C,0.72,0.62,0.65,0.62,0.68,0.25
+HOLD-LOW,0.22,0.18,0.2,0.18,0.22,0.18
+HOLD-MID,0.5,0.45,0.48,0.44,0.5,0.22
+HOLD-HABITAT,0.82,0.78,0.8,0.76,0.82,0.25
+HOLD-NOISE,0.84,0.8,0.82,0.78,0.84,0.92

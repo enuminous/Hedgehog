@@ -1,0 +1,34 @@
+machine: HEDGEHOG-M1
+version: 1.0.0
+
+development_environments:
+  - DEV-A
+  - DEV-B
+  - DEV-C
+
+heldout_environments:
+  - HOLD-LOW
+  - HOLD-MID
+  - HOLD-HABITAT
+  - HOLD-NOISE
+
+habitat_dimensions:
+  structured:
+    - temporal_depth
+    - partial_observability
+    - feedback
+    - contradiction
+    - distributed_state
+  ceiling:
+    - noise
+
+expected_signs:
+  structured_complexity_vs_gain: positive
+  noise_vs_gain: negative
+
+primary_endpoint:
+  metric: median_environment_delta_brier
+  material_gain: 0.002
+
+freeze:
+  hash: sha256

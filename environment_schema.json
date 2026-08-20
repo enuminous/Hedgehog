@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "HEDGEHOG Environment Metadata",
+  "type": "object",
+  "required": [
+    "environment_id",
+    "temporal_depth",
+    "partial_observability",
+    "feedback",
+    "contradiction",
+    "distributed_state",
+    "noise"
+  ],
+  "properties": {
+    "environment_id": {
+      "type": "string"
+    },
+    "temporal_depth": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "partial_observability": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "feedback": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "contradiction": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "distributed_state": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "noise": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    }
+  }
+}
